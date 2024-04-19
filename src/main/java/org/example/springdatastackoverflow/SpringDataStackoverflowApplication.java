@@ -14,12 +14,4 @@ public class SpringDataStackoverflowApplication {
         SpringApplication.run(SpringDataStackoverflowApplication.class, args);
     }
 
-    @Bean
-    CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-        return args -> {
-            AbstractMappingContext context = ctx.getBean(AbstractMappingContext.class);
-            System.out.println(ctx.hashCode());
-        };
-    }
-
 }
