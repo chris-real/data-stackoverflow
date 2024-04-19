@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: spring-data-stackoverflow
+    datasource:
+        url: "jdbc:postgresql://localhost:32768/mydatabase"
+        username: myuser
+        password: secret
